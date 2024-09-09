@@ -1,0 +1,57 @@
+body{
+    font-family: "SUSE", sans-serif;
+}
+:root{
+    --main-color:#cae9ff;
+    --section-color:#eef0eb;
+  
+}
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5) 0% 100%) , url('../images/5932.jpg_wh1200.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height:100vh ;
+    color: white;
+    font-family: "Cinzel", serif;
+}
+header h1{
+    
+    letter-spacing: 20px;
+    font-size: 100px;
+    color: var(--main-color);
+    
+
+}
+section{
+    background-color: var(--section-color);
+}
+section h2{
+    color: black;
+    text-align: center;
+    margin-block:40px ;
+    font-size: 80px;
+}
+.card{
+    overflow: hidden;
+}
+.card .image{
+    height: 200px;
+    transition: all 1s ease;
+    
+}
+.card img:hover{
+    transform: scale(1.1);
+}
+.btns{
+    text-align: center;
+    margin-block: 30px;
+}
+.btns button{
+    
+    border: 1px solid white;
+    background-color: var(--main-color);
+    padding: 10px 40px;
+    border-radius: 50px;
+
+}
